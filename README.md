@@ -1,1 +1,1 @@
-# browser-icons
+# react-browser-icons

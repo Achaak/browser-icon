@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:Achaak/browser-icons.git"
+    "url": "git+ssh://git@github.com:Achaak/react-browser-icons.git"
   },
-  "homepage": "https://github.com/Achaak/browser-icons#readme",
+  "homepage": "https://github.com/Achaak/react-browser-icons#readme",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^17.0.0",
