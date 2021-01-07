@@ -1,27 +1,35 @@
-import { Browsers } from "../types";
-import Google_Chrome_September_2014 from "./Google_Chrome_September_2014"
-import Safari from "./Safari"
-import Opera_2015 from "./Opera_2015"
-import Mozilla_Firefox_2019 from "./Mozilla_Firefox_2019"
-import Microsoft_Edge_2020 from "./Microsoft_Edge_2020"
+import Chrome from "./components/Chrome"
+import Safari from "./components/Safari"
+import Opera from "./components/Opera"
+import Firefox from "./components/Firefox"
+import Edge from "./components/Edge"
+import IE from "./components/IE"
+import Brave from "./components/Brave"
+import Samsung from "./components/Samsung"
 import React from "react";
 
-const svg = {
-  chrome: Google_Chrome_September_2014,
-  safari: Safari,
-  opera: Opera_2015,
-  firefox: Mozilla_Firefox_2019,
-  edge: Microsoft_Edge_2020,
+const lastVersion = {
+  Chrome: Chrome,
+  Safari: Safari,
+  Opera: Opera,
+  Firefox: Firefox,
+  Edge: Edge,
+  IE: IE,
+  Brave: Brave,
+  Samsung: Samsung,
 }
 
-type getBrowser = {
+export const BrowsersList = ["Chrome", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung"]
+export type Browsers = keyof typeof lastVersion
+
+type getBrowserIcon = {
   browser: Browsers,
   className?: string,
   style?: React.CSSProperties,
-  size: number | string
+  size: number | string,
 }
-export const getBrowserIcon = ({ browser, className, style, size }: getBrowser) => {
-  const Component = svg[browser]
+export const getBrowserIcon = async ({ browser, className, style, size }: getBrowserIcon) => {
+  const Component = lastVersion[browser]
 
   return (
     <Component

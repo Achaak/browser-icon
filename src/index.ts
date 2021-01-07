@@ -1,7 +1,9 @@
-import { getBrowserIcon} from "./icons"
-import { Browsers } from "./types"
+import { 
+  getBrowserIcon, Browsers, BrowsersList
+} from "./icons"
 
 export {
   getBrowserIcon,
-  Browsers
+  Browsers,
+  BrowsersList
 }

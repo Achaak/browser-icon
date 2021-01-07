@@ -1,1 +1,6 @@
-export type Browsers = "chrome" | "safari" | "opera" | "firefox" | "edge"
+export interface SVGComponent {
+  className?: string,
+  height?: number | string,
+  width?: number | string,
+  style?: React.CSSProperties,
+}
