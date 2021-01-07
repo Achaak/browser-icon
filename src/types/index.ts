@@ -1,0 +1,1 @@
+export type Browsers = "chrome" | "safari" | "opera" | "firefox" | "edge"
