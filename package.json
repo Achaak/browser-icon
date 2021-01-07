@@ -1,11 +1,16 @@
 {
   "name": "react-browser-icons",
-  "version": "1.0.3",
-  "description": "",
+  "version": "1.0.4",
+  "description": "Tools to get browser svg.",
   "main": "./lib/index.js",
   "module": "lib/index.es.js",
   "jsnext:main": "lib/index.es.js",
-  "keywords": [],
+  "keywords": [
+    "react",
+    "lib",
+    "svg",
+    "browser"
+  ],
   "files": [
     "lib"
   ],
