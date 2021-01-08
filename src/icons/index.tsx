@@ -9,17 +9,18 @@ import Samsung from "./components/Samsung"
 import React from "react";
 
 const lastVersion = {
-  Chrome: Chrome,
-  Safari: Safari,
-  Opera: Opera,
-  Firefox: Firefox,
-  Edge: Edge,
-  IE: IE,
-  Brave: Brave,
-  Samsung: Samsung,
+  "Chrome": Chrome,
+  "Safari": Safari,
+  "Mobile Safari": Safari,
+  "Opera": Opera,
+  "Firefox": Firefox,
+  "Edge": Edge,
+  "IE": IE,
+  "Brave": Brave,
+  "Samsung": Samsung,
 }
 
-export const BrowsersList = ["Chrome", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung"]
+export const BrowsersList = ["Chrome", "Mobile Safari", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung"]
 export type Browsers = keyof typeof lastVersion
 
 type getBrowserIcon = {
