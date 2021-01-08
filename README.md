@@ -18,7 +18,7 @@ Return the SVG of browser.
 
 Example:
 ``` js
-const Component = getBrowserIcon({ browser: "", className: "class", style: { marginTop: 42 }, size: 42 })
+const Component = getBrowserIcon({ browser: "Chrome", className: "class", style: { marginTop: 42 }, size: 42 })
 ```
 
 ## Variables
