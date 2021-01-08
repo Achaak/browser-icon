@@ -28,9 +28,10 @@ type getBrowserIcon = {
   style?: React.CSSProperties,
   size: number | string,
 }
-export const getBrowserIcon = async ({ browser, className, style, size }: getBrowserIcon) => {
+export const getBrowserIcon = ({ browser, className, style, size }: getBrowserIcon) => {
   const Component = lastVersion[browser]
 
+  if(!Component) return null
   return (
     <Component
       className={className}
