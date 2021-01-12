@@ -6,6 +6,7 @@ import Edge from "./components/Edge"
 import IE from "./components/IE"
 import Brave from "./components/Brave"
 import Samsung from "./components/Samsung"
+import Chromium from "./components/Chromium"
 import React from "react";
 
 const lastVersion = {
@@ -17,9 +18,10 @@ const lastVersion = {
   IE: IE,
   Brave: Brave,
   Samsung: Samsung,
+  Chromium: Chromium,
 }
 
-export const BrowsersList = ["Chrome", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung"]
+export const BrowsersList = ["Chrome", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung", "Chromium"]
 export type Browsers = keyof typeof lastVersion
 
 type getBrowserIcon = {
