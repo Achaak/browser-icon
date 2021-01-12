@@ -29,3 +29,6 @@ Example:
 ``` js
 console.log(BrowsersList) // "Chrome" | "Safari" | "Mobile Safari" | "Opera" | "Firefox" | "Edge" | "IE" | "Brave" | "Samsung" | "Chromium"
 ```
+
+## Crédits
+https://github.com/edent/SuperTinyIcons
