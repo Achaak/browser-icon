@@ -10,18 +10,19 @@ import Chromium from "./components/Chromium"
 import React from "react";
 
 const lastVersion = {
-  Chrome: Chrome,
-  Safari: Safari,
-  Opera: Opera,
-  Firefox: Firefox,
-  Edge: Edge,
-  IE: IE,
-  Brave: Brave,
-  Samsung: Samsung,
-  Chromium: Chromium,
+  "Chrome": Chrome,
+  "Safari": Safari,
+  "Mobile Safari": Safari,
+  "Opera": Opera,
+  "Firefox": Firefox,
+  "Edge": Edge,
+  "IE": IE,
+  "Brave": Brave,
+  "Samsung": Samsung,
+  "Chromium": Chromium,
 }
 
-export const BrowsersList = ["Chrome", "Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung", "Chromium"]
+export const BrowsersList = ["Chrome", "Safari", "Mobile Safari", "Opera", "Firefox", "Edge", "IE", "Brave", "Samsung", "Chromium"]
 export type Browsers = keyof typeof lastVersion
 
 type getBrowserIcon = {

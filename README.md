@@ -27,5 +27,5 @@ Return the managed list of browsers.
 
 Example:
 ``` js
-console.log(BrowsersList) // "Chrome" | "Safari" | "Opera" | "Firefox" | "Edge" | "IE" | "Brave" | "Samsung" | "Chromium"
+console.log(BrowsersList) // "Chrome" | "Safari" | "Mobile Safari" | "Opera" | "Firefox" | "Edge" | "IE" | "Brave" | "Samsung" | "Chromium"
 ```
